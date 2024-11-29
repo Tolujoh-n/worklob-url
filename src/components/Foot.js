@@ -7,11 +7,11 @@ const Foot = () => {
         <div className="row gy-4">
           <div className="col-lg-4 col-md-6 footer-about">
             <a href="index.html" className="logo d-flex align-items-center">
-              <span className="sitename">NearGigs</span>
+              <span className="sitename">WorkLob</span>
             </a>
             <div className="footer-contact pt-3">
               <p>
-                NearGigs Decentralized freelance marketplace on the NEAR
+                WorkLob Decentralized freelance marketplace on the Stacks
                 blockchain, offering lower fees, transparent operations, and
                 secure payments, empowering freelancers and clients to connect
                 directly and control their work through community-driven
@@ -102,7 +102,7 @@ const Foot = () => {
       <div className="container copyright text-center mt-4">
         <p>
           © <span>Copyright</span>
-          <strong className="px-1 sitename">NearGigs 2024</strong>
+          <strong className="px-1 sitename">WorkLob 2024</strong>
           <span>All Rights Reserved</span>
         </p>
       </div>

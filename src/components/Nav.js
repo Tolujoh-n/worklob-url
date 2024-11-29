@@ -12,7 +12,7 @@ const Nav = () => {
         <a href="/" className="logo d-flex align-items-center me-auto">
           {/* Uncomment the line below if you also wish to use an image logo */}
           {/* <img src={logo} alt="Logo" /> */}
-          <h1 className="sitename">NearGigs</h1>
+          <h1 className="sitename">WorkLob</h1>
           <span>.</span>
         </a>
 

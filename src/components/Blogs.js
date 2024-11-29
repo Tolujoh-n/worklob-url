@@ -85,7 +85,7 @@ const Blogs = () => {
 
               <div className="post-content d-flex flex-column">
                 <h3 className="post-title">
-                  Introducing Base and the Birth of Base Incubator by NearGigs
+                  Introducing Base and the Birth of Base Incubator by WorkLob
                 </h3>
 
                 <div className="meta d-flex align-items-center">

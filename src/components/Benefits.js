@@ -52,7 +52,7 @@ const Benefits = () => {
                 <div>
                   <h5>Crypto Payments</h5>
                   <p>
-                    NearGigs supports a range of popular tokens on the Near
+                    WorkLob supports a range of popular tokens on the Stacks
                     networks, providing fast, efficient settlement between
                     Customers and Freelancers anywhere in the world.
                   </p>

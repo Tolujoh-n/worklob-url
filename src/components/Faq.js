@@ -9,33 +9,33 @@ const Faq = () => {
       delay: 100,
     },
     {
-      question: "What cryptocurrencies can I earn on NearGigs?",
+      question: "What cryptocurrencies can I earn on WorkLob?",
       answer:
-        "NearGigs currently supports the NEAR blockchain. Freelancers and customers can organize cryptocurrency job payments in NEAR tokens and stablecoins such as USDC, USDT, EURT, and DAI on the NEAR blockchain.",
+        "WorkLob currently supports the Stacks blockchain. Freelancers and customers can organize cryptocurrency job payments in Stacks tokens and stablecoins.",
       delay: 200,
     },
     {
-      question: "How does a NearGigs Premium membership benefit Freelancers?",
+      question: "How does a WorkLob Premium membership benefit Freelancers?",
       answer:
         "Freelancers are charged 10% in platform fees for each Job or Gig they complete. These fees are converted to NGIG tokens on the open market. Freelancers may then receive a rebate of up to half of this amount in NGIG tokens, depending on their Premium membership status. This potentially reduces their fees to as little as 5%, as well as giving them a regular payment in a token for which there is constant demand – somewhat akin to a ‘crypto jobs pension’.",
       delay: 300,
     },
     {
-      question: "How does a NearGigs Premium membership benefit Customers?",
+      question: "How does a WorkLob Premium membership benefit Customers?",
       answer:
-        "Customers receive a bonus in NGIG tokens every time they make a payment to a Freelancer. This acts as an incentive for Customers to continue using NearGigs for all their hiring needs. The NGIG they receive can be held, accruing value over time, or alternatively can be used to pay Freelancers.",
+        "Customers receive a bonus in NGIG tokens every time they make a payment to a Freelancer. This acts as an incentive for Customers to continue using WorkLob for all their hiring needs. The NGIG they receive can be held, accruing value over time, or alternatively can be used to pay Freelancers.",
       delay: 400,
     },
     {
       question: "Can I apply for crypto jobs without a Premium membership?",
       answer:
-        "Absolutely! NearGigs cryptocurrency job market is open to all. However, with even the lowest level of Premium membership, Freelancers will start to earn NGIG tokens, allowing them to access higher levels and earn larger rebates – a virtuous cycle.",
+        "Absolutely! WorkLob cryptocurrency job market is open to all. However, with even the lowest level of Premium membership, Freelancers will start to earn NGIG tokens, allowing them to access higher levels and earn larger rebates – a virtuous cycle.",
       delay: 500,
     },
     {
       question: "What is ‘Job Mining’?",
       answer:
-        "Whenever a task is completed and a job payment is made, Neargigs converts its fee into NGIG, the native token of the NearGigs ecosystem. These NGIG tokens are distributed between NGIG Freelancers, Customers, and other NearGigs stakeholders. This process is called Job Mining.",
+        "Whenever a task is completed and a job payment is made, WorkLob converts its fee into NGIG, the native token of the WorkLob ecosystem. These NGIG tokens are distributed between NGIG Freelancers, Customers, and other WorkLob stakeholders. This process is called Job Mining.",
       delay: 500,
     },
     {

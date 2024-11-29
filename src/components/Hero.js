@@ -10,7 +10,7 @@ const Hero = () => {
             <h1>Find Web3 Jobs and Freelance Opportunities</h1>
             <p>
               Explore top Web3 vacancies in the blockchain industry or discover
-              freelance projects that match your skills. NearGigs makes it easy
+              freelance projects that match your skills. WorkLob makes it easy
               to connect with exciting career paths and flexible work options.
             </p>
             <div className="d-flex">
