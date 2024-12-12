@@ -167,8 +167,11 @@ const Jobs = () => {
   return (
     <section id="crypto-jobs" className="crypto-jobs dark-background">
       <div className="container">
-        <h3 className="sitename">Crypto Jobs</h3>
-        <p>Find your next job in the crypto industry.</p>
+        <h3 className="sitename">All Job Opportunities</h3>
+        <p>
+          Discover a wide range of jobs across various industries and
+          professions.
+        </p>
 
         {/* Filter Section */}
         <div className="filter-section">
@@ -237,7 +240,7 @@ const Jobs = () => {
           id="freelancee"
           className="container"
         >
-          <h3 className="sitename">New Freelance Crypto Jobs</h3>
+          <h3 className="sitename">New Freelance Jobs</h3>
           <p>663 Jobs on our Platform</p>
 
           {/* Freelance Job List Cards */}
