@@ -1,12 +1,13 @@
 import React from "react";
-import heroImg from "../assets/img/hero-img.png"; // Uncomment if you're using an image
+import heroImg from "../assets/img/hero-img.png";
 
 const Hero = () => {
   return (
     <section id="hero" className="hero section dark-background">
       <div className="container">
-        <div className="row gy-4">
-          <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+        <div className="row gy-4 align-items-center">
+          {/* Text Section */}
+          <div className="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h1>Central Hub for Jobs and Talent</h1>
             <p>
               WorkLob is the ultimate platform connecting job seekers,
@@ -15,33 +16,29 @@ const Hero = () => {
               top talent—WorkLob brings everything about jobs and opportunities
               into one place.
             </p>
-            {/* <div className="d-flex">
-              <a
-                style={{ marginRight: "10px" }}
-                href="#about"
-                className="btn-get-started"
-              >
-                Find Job
-              </a>
-              <a href="#about" className="btn-get-started">
-                Find Talent
-              </a>
-            </div> */}
             <div className="d-flex">
               <a
                 href="https://forms.gle/gFNerRLqiF38wf5h9"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn-get-started"
               >
                 Join Waitlist
               </a>
             </div>
           </div>
-          <div className="col-lg-6 order-1 order-lg-2 hero-img">
+
+          {/* Image Section */}
+          <div className="col-12 col-lg-6 order-1 order-lg-2 hero-img">
             <img
-              src={heroImg} // Update with actual path if you're using an image
+              src={heroImg}
               className="img-fluid animated"
-              alt=""
+              alt="Hero"
+              style={{
+                width: "100%",
+                height: "auto",
+                display: "block",
+              }}
             />
           </div>
         </div>
