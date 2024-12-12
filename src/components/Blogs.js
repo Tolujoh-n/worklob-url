@@ -22,13 +22,14 @@ const Blogs = () => {
 
               <div className="post-content d-flex flex-column">
                 <h3 className="post-title">
-                  Inside Web3 HR: Insights from De.Fi’s Head of HR
+                  Bridging Talent and Opportunity for Every Profession
                 </h3>
 
                 <div className="meta d-flex align-items-center">
                   <p id="blogpara">
-                    Discover how Web3 is reshaping HR practices with insights
-                    from a leading expert in the field...
+                    Explore how our platform connects job seekers and creators,
+                    offering roles across industries for a diverse range of
+                    skills and talen...
                   </p>
                 </div>
 
@@ -53,14 +54,14 @@ const Blogs = () => {
 
               <div className="post-content d-flex flex-column">
                 <h3 className="post-title">
-                  Embracing Change: HR in the World of Digital Assets
+                  The Future of Work: Flexibility and Freedom
                 </h3>
 
                 <div className="meta d-flex align-items-center">
                   <p id="blogpara">
-                    Hotcoin’s HR shares her journey from traditional industries
-                    to the world of Web3 and crypto, highlighting key insights
-                    on thriving in this...
+                    Learn how freelancing, part-time, and full-time
+                    opportunities redefine the modern workforce, empowering
+                    professionals and businesses alik...
                   </p>
                 </div>
 
@@ -85,14 +86,14 @@ const Blogs = () => {
 
               <div className="post-content d-flex flex-column">
                 <h3 className="post-title">
-                  Introducing Base and the Birth of Base Incubator by WorkLob
+                  Why Every Job Matters: A Platform for All
                 </h3>
 
                 <div className="meta d-flex align-items-center">
                   <p id="blogpara">
-                    Discover Base's innovative L2 solution addressing
-                    scalability, security, and user experience challenges in
-                    crypto. Learn about...
+                    Discover how we celebrate all professions, connecting
+                    customers and talents to create opportunities that make a
+                    difference in every fiel...
                   </p>
                 </div>
 

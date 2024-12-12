@@ -7,13 +7,15 @@ const Hero = () => {
       <div className="container">
         <div className="row gy-4">
           <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1>Find Web3 Jobs and Freelance Opportunities</h1>
+            <h1>Central Hub for Jobs and Talent</h1>
             <p>
-              Explore top Web3 vacancies in the blockchain industry or discover
-              freelance projects that match your skills. WorkLob makes it easy
-              to connect with exciting career paths and flexible work options.
+              WorkLob is the ultimate platform connecting job seekers,
+              employers, and freelancers. Whether you're looking for full-time,
+              part-time, or freelance work—or you're a job creator searching for
+              top talent—WorkLob brings everything about jobs and opportunities
+              into one place.
             </p>
-            <div className="d-flex">
+            {/* <div className="d-flex">
               <a
                 style={{ marginRight: "10px" }}
                 href="#about"
@@ -23,6 +25,15 @@ const Hero = () => {
               </a>
               <a href="#about" className="btn-get-started">
                 Find Talent
+              </a>
+            </div> */}
+            <div className="d-flex">
+              <a
+                href="https://forms.gle/gFNerRLqiF38wf5h9"
+                target="_blank"
+                className="btn-get-started"
+              >
+                Join Waitlist
               </a>
             </div>
           </div>

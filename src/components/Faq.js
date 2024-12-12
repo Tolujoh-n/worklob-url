@@ -17,31 +17,31 @@ const Faq = () => {
     {
       question: "How does a WorkLob Premium membership benefit Freelancers?",
       answer:
-        "Freelancers are charged 10% in platform fees for each Job or Gig they complete. These fees are converted to NGIG tokens on the open market. Freelancers may then receive a rebate of up to half of this amount in NGIG tokens, depending on their Premium membership status. This potentially reduces their fees to as little as 5%, as well as giving them a regular payment in a token for which there is constant demand – somewhat akin to a ‘crypto jobs pension’.",
+        "Freelancers are charged 10% in platform fees for each Job or Gig they complete. These fees are converted to LOB tokens on the open market. Freelancers may then receive a rebate of up to half of this amount in LOB tokens, depending on their Premium membership status. This potentially reduces their fees to as little as 5%, as well as giving them a regular payment in a token for which there is constant demand – somewhat akin to a ‘crypto jobs pension’.",
       delay: 300,
     },
     {
       question: "How does a WorkLob Premium membership benefit Customers?",
       answer:
-        "Customers receive a bonus in NGIG tokens every time they make a payment to a Freelancer. This acts as an incentive for Customers to continue using WorkLob for all their hiring needs. The NGIG they receive can be held, accruing value over time, or alternatively can be used to pay Freelancers.",
+        "Customers receive a bonus in LOB tokens every time they make a payment to a Freelancer. This acts as an incentive for Customers to continue using WorkLob for all their hiring needs. The LOB they receive can be held, accruing value over time, or alternatively can be used to pay Freelancers.",
       delay: 400,
     },
     {
-      question: "Can I apply for crypto jobs without a Premium membership?",
+      question: "Can I apply for jobs without a Premium membership?",
       answer:
-        "Absolutely! WorkLob cryptocurrency job market is open to all. However, with even the lowest level of Premium membership, Freelancers will start to earn NGIG tokens, allowing them to access higher levels and earn larger rebates – a virtuous cycle.",
+        "Absolutely! WorkLob job market is open to all. However, with even the lowest level of Premium membership, Freelancers will start to earn LOB tokens, allowing them to access higher levels and earn larger rebates – a virtuous cycle.",
       delay: 500,
     },
     {
       question: "What is ‘Job Mining’?",
       answer:
-        "Whenever a task is completed and a job payment is made, WorkLob converts its fee into NGIG, the native token of the WorkLob ecosystem. These NGIG tokens are distributed between NGIG Freelancers, Customers, and other WorkLob stakeholders. This process is called Job Mining.",
+        "Whenever a task is completed and a job payment is made, WorkLob converts its fee into LOB, the native token of the WorkLob ecosystem. These LOB tokens are distributed between LOB Freelancers, Customers, and other WorkLob stakeholders. This process is called Job Mining.",
       delay: 500,
     },
     {
-      question: "What Are Web3 Jobs?",
+      question: "What Types of Jobs Can I Find Here?",
       answer:
-        "The growth of the blockchain sector has led to the creation of a wide range of Web3 Jobs, with roles including smart contract developers and marketing and communications experts with a strong understanding of the technology. In other cases, Web3 jobs will support decentralized projects and communities, but will need no special understanding of blockchain (for example, community management and admin).",
+        "This platform welcomes opportunities from all walks of life. Whether you're offering or seeking services, there’s a place for everyone. From technical roles like development and design to creative, administrative, and skilled trades, both customers and talents can connect for work that matches their needs and skills. No matter the profession or service, there's room for you here.",
       delay: 500,
     },
   ];
