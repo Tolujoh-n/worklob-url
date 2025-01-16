@@ -11,7 +11,7 @@ const Faq = () => {
     {
       question: "What cryptocurrencies can I earn on WorkLob?",
       answer:
-        "WorkLob currently supports the Stacks blockchain. Freelancers and customers can organize cryptocurrency job payments in Stacks tokens and stablecoins.",
+        "WorkLob currently supports the ICP blockchain. Freelancers and customers can organize cryptocurrency job payments in ICP tokens and stablecoins.",
       delay: 200,
     },
     {

@@ -11,7 +11,7 @@ const Foot = () => {
             </a>
             <div className="footer-contact pt-3">
               <p>
-                WorkLob Decentralized freelance marketplace on the Stacks
+                WorkLob Decentralized freelance marketplace on the ICP
                 blockchain, offering lower fees, transparent operations, and
                 secure payments, empowering freelancers and clients to connect
                 directly and control their work through community-driven
@@ -102,7 +102,7 @@ const Foot = () => {
       <div className="container copyright text-center mt-4">
         <p>
           © <span>Copyright</span>
-          <strong className="px-1 sitename">WorkLob 2024</strong>
+          <strong className="px-1 sitename">WorkLob 2025</strong>
           <span>All Rights Reserved</span>
         </p>
       </div>
