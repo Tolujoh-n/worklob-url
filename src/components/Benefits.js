@@ -52,7 +52,7 @@ const Benefits = () => {
                 <div>
                   <h5>Crypto Payments</h5>
                   <p>
-                    WorkLob supports a range of popular tokens on the ICP
+                    WorkLob supports a range of popular tokens on the Celestia
                     networks, providing fast, efficient settlement between
                     Customers and Freelancers anywhere in the world.
                   </p>

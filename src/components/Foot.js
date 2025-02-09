@@ -11,11 +11,10 @@ const Foot = () => {
             </a>
             <div className="footer-contact pt-3">
               <p>
-                WorkLob Decentralized freelance marketplace on the ICP
-                blockchain, offering lower fees, transparent operations, and
-                secure payments, empowering freelancers and clients to connect
-                directly and control their work through community-driven
-                governance.
+                WorkLob is a Decentralized freelance marketplace on FLAME,
+                offering lower fees, transparent operations, and secure
+                payments, empowering freelancers and clients to connect directly
+                and control their work through community-driven governance.
               </p>
             </div>
             <div className="social-links d-flex mt-4">

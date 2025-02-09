@@ -1,6 +1,7 @@
 import React from "react";
 
 const Faq = () => {
+  // search for TIA, FLAME, and Celestia
   const faqItems = [
     {
       question: "What are the benefits of freelancing for crypto?",
@@ -11,7 +12,7 @@ const Faq = () => {
     {
       question: "What cryptocurrencies can I earn on WorkLob?",
       answer:
-        "WorkLob currently supports the ICP blockchain. Freelancers and customers can organize cryptocurrency job payments in ICP tokens and stablecoins.",
+        "Freelancers and customers can organize cryptocurrency job payments in TIA and stablecoins.",
       delay: 200,
     },
     {
@@ -29,13 +30,13 @@ const Faq = () => {
     {
       question: "Can I apply for jobs without a Premium membership?",
       answer:
-        "Absolutely! WorkLob job market is open to all. However, with even the lowest level of Premium membership, Freelancers will start to earn LOB tokens, allowing them to access higher levels and earn larger rebates – a virtuous cycle.",
+        "Absolutely! WorkLob job market is open to all. However, with even the lowest level of Premium membership, Freelancers will start to earn LOB tokens and No fees charged after any gig or offer completion, allowing them to access higher levels and earn larger rebates – a virtuous cycle.",
       delay: 500,
     },
     {
       question: "What is ‘Job Mining’?",
       answer:
-        "Whenever a task is completed and a job payment is made, WorkLob converts its fee into LOB, the native token of the WorkLob ecosystem. These LOB tokens are distributed between LOB Freelancers, Customers, and other WorkLob stakeholders. This process is called Job Mining.",
+        "Whenever a task is completed and a job payment is made, WorkLob converts its fee into LOB. These LOB tokens are distributed between Freelancers, Customers, and other Lob stakeholders who participate in Staking. This process is called Job Mining.",
       delay: 500,
     },
     {
