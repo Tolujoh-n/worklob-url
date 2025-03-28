@@ -52,7 +52,7 @@ const Benefits = () => {
                 <div>
                   <h5>Crypto Payments</h5>
                   <p>
-                    WorkLob supports a range of popular tokens on the Celestia
+                    WorkLob supports a range of popular tokens on the BASE
                     networks, providing fast, efficient settlement between
                     Customers and Freelancers anywhere in the world.
                   </p>
@@ -62,14 +62,14 @@ const Benefits = () => {
               <li>
                 <i className="bi bi-fullscreen-exit"></i>
                 <div>
-                  <h5>Digital Contract</h5>
+                  <h5>AI Agents</h5>
                   <p>
-                    Set the conditions of how you'll work together, including
-                    deadlines and payment terms, using the Contract module. We
-                    protect your financial engagement through digital escrow by
-                    locking all funds once the contract is signed - releasing
-                    them automatically once the work has been completed and
-                    accepted.
+                    Empower your productivity with our AI-driven agents,
+                    designed to assist users in completing specialized tasks
+                    efficiently. our AI agents provide tailored solutions to
+                    meet your unique needs. Seamlessly integrated into the
+                    platform, these AI-powered tools elevate your experience and
+                    help you achieve more, faster.
                   </p>
                 </div>
               </li>

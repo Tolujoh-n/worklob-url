@@ -1,7 +1,6 @@
 import React from "react";
 
 const Faq = () => {
-  // search for TIA, FLAME, and Celestia
   const faqItems = [
     {
       question: "What are the benefits of freelancing for crypto?",
@@ -12,7 +11,7 @@ const Faq = () => {
     {
       question: "What cryptocurrencies can I earn on WorkLob?",
       answer:
-        "Freelancers and customers can organize cryptocurrency job payments in TIA and stablecoins.",
+        "Freelancers and customers can organize cryptocurrency job payments in BASE and stablecoins.",
       delay: 200,
     },
     {

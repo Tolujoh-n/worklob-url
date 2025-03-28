@@ -44,16 +44,16 @@ const Nav = () => {
               </ul>
             </li>
             <li>
-              <a href="/">Login</a>
+              <a href="https://worklobapp.netlify.app/">Doc</a>
             </li>
             <li>
-              <a href="/">Sign Up</a>
+              <a href="https://worklobapp.netlify.app/">Get Started</a>
             </li>
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-        <a className="btn-getstarted" href="/">
+        <a className="btn-getstarted" href="https://worklobapp.netlify.app/">
           Post Job
         </a>
       </div>

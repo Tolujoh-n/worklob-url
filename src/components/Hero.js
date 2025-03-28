@@ -8,13 +8,13 @@ const Hero = () => {
         <div className="row gy-4 align-items-center">
           {/* Text Section */}
           <div className="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1>Central Hub for Jobs and Talent</h1>
+            <h1>Unified Network for Global Talent and Work</h1>
             <p>
-              WorkLob is the ultimate platform connecting job seekers,
-              employers, and freelancers. Whether you're looking for full-time,
-              part-time, or freelance work—or you're a job creator searching for
-              top talent—WorkLob brings everything about jobs and opportunities
-              into one place.
+              WorkLob is the ultimate decentralized platform connecting job
+              seekers, employers, and freelancers, enhanced with AI-powered
+              agents to assist users in completing specialized tasks — WorkLob
+              combines blockchain technology with AI to bring everything about
+              jobs and opportunities into one seamless experience.
             </p>
             <div className="d-flex">
               <a
