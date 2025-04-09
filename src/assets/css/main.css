@@ -24,6 +24,8 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #213b52; /* Color for headings, subheadings and title throughout the website */
+  --bg-color: #223b51; /* Color for headings, subheadings and title throughout the website */
+  --cardbg-color: #315575; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #fdc134; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -87,6 +89,22 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
+}
+
+.use-button {
+  background-color: #fdc134;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.use-button:hover {
+  background-color: #e09d00;
 }
 
 /* Pulsating Play Button
@@ -917,9 +935,9 @@ section,
   display: flex;
   align-items: center;
 
-  border-bottom: dotted;
+  /* border-bottom: dotted;
   border-width: 10px 4px;
-  border-color: #c5d7e7;
+  border-color: #c5d7e7; */
   /* border-radius: 10px 40px; */
 }
 
@@ -1028,6 +1046,7 @@ section,
   position: relative;
 
   border-bottom: dotted;
+  border-top: dotted;
   border-width: 10px 4px;
   border-color: #213b52;
 }
@@ -1531,12 +1550,23 @@ section,
 /*--------------------------------------------------------------
 # Recent Blog Posts Section
 --------------------------------------------------------------*/
+.recent-blog-posts {
+  background: var(--bg-color);
+}
+.aiagenthead {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
 .recent-blog-posts .post-item {
-  background: var(--heading-color);
+  background: var(--cardbg-color);
   border-radius: 10px;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
 
 .recent-blog-posts .post-item .post-img img {
@@ -1680,6 +1710,9 @@ section,
 /*--------------------------------------------------------------
 # Featured Services Section
 --------------------------------------------------------------*/
+.featured-services {
+  background: var(--bg-color);
+}
 .featured-services .img {
   border-radius: 8px;
   overflow: hidden;
@@ -1690,7 +1723,7 @@ section,
 }
 
 .featured-services .details {
-  background: color-mix(in srgb, var(--surface-color), transparent 5%);
+  background: color-mix(in srgb, var(--cardbg-color), transparent 5%);
   padding: 50px 30px;
   margin: -100px 30px 0 30px;
   transition: all ease-in-out 0.3s;
@@ -1720,6 +1753,7 @@ section,
 }
 
 .featured-services .details h3 {
+  color: var(--surface-color);
   font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
@@ -1727,7 +1761,7 @@ section,
 }
 
 .featured-services .details p {
-  color: color-mix(in srgb, var(--default-color), transparent 10%);
+  color: color-mix(in srgb, var(--surface-color), transparent 10%);
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
@@ -1753,8 +1787,12 @@ section,
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
+.features {
+  background: var(--bg-color);
+}
+
 .features .features-item {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: color-mix(in srgb, var(--surface-color), transparent 20%);
 }
 
 .features .features-item + .features-item {
@@ -1768,8 +1806,9 @@ section,
 }
 
 .features .features-item h3 {
+  color: var(--surface-color);
   font-weight: 700;
-  font-size: 26px;
+  font-size: 30px;
 }
 
 .features .features-item ul {
@@ -1788,18 +1827,26 @@ section,
 }
 
 .features .features-item ul i {
-  font-size: 20px;
+  font-size: 25px;
   padding-right: 4px;
-  color: var(--accent-color);
+  color: var(--surface-color);
 }
 
 .features .features-item p:last-child {
   margin-bottom: 0;
 }
 
+.features .img-fluid {
+  min-height: 300px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+
 .services .service-item {
   background-color: var(--surface-color);
   padding: 50px 30px;
@@ -2159,11 +2206,37 @@ section,
 /*--------------------------------------------------------------
 # Faq Section
 --------------------------------------------------------------*/
+.faq {
+  background-color: var(--bg-color); /* Updated background color */
+  color: var(--default-color); /* Use a contrasting color for text */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.faq .section-title h2 {
+  color: var(--surface-color); /* Accent color for title */
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
 .faq .faq-item {
   margin: 20px 0;
-  padding: 20px 0;
-  border-bottom: 1px solid
-    color-mix(in srgb, var(--default-color), transparent 85%);
+  padding: 20px;
+  border: 1px solid var(--surface-color);
+  border-radius: 8px;
+  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.faq .faq-item.active {
+  background-color: var(--cardbg-color);
+}
+
+.faq .faq-item:hover {
+  background-color: color-mix(in srgb, var(--cardbg-color), transparent 70%);
+  transform: scale(1.02);
+  cursor: pointer;
 }
 
 .faq .faq-item i {
@@ -2173,13 +2246,18 @@ section,
 }
 
 .faq .faq-item h4 {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 18px;
+  color: var(--surface-color);
+  line-height: 28px;
   font-weight: 700;
+  margin: 0;
 }
 
 .faq .faq-item p {
-  font-size: 15px;
+  font-size: 16px;
+  color: var(--surface-color);
+  line-height: 24px;
+  margin: 10px 0 0 0;
 }
 
 .faq .faq-item:first-child {
