@@ -77,7 +77,7 @@ const Foot = () => {
           </div>
 
           <div className="col-lg-3 col-md-3 footer-links">
-            <h4>Crypto Jobs</h4>
+            <h4>Quick Links</h4>
             <ul>
               <li>
                 <a href="#">Freelance Jobs</a>
@@ -89,10 +89,10 @@ const Foot = () => {
                 <a href="#">Gigs</a>
               </li>
               <li>
-                <a href="#">Freelancers</a>
+                <a href="#">AI Agents</a>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <a href="#">Loans</a>
               </li>
             </ul>
           </div>

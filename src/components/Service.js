@@ -1,70 +1,65 @@
 import React from "react";
-import services1 from "../assets/img/about.jpg";
-import services2 from "../assets/img/about.jpg";
-import services3 from "../assets/img/about.jpg";
-import services4 from "../assets/img/about.jpg";
-import services5 from "../assets/img/about.jpg";
-import services6 from "../assets/img/about.jpg";
+import services1 from "../assets/img/features/low-fees-n.png";
+import services2 from "../assets/img/features/reputation-n.png";
+import services3 from "../assets/img/features/cypto-payment-n.png";
+import services4 from "../assets/img/features/ai-agent-n.png";
+import services5 from "../assets/img/features/trading-n.png";
+import services6 from "../assets/img/features/crypto-staking-n.png";
 
 const services = [
   {
     id: 1,
-    title: "Nesciunt Mete",
+    title: "Low Commissions",
     description:
-      "Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.",
-    icon: "bi bi-activity",
+      "WorkLob offers the lowest commission rates in the industry, with 3% for Freelancers and 0% for Customers. Premium users enjoy fee-free transactions!",
+    icon: "bi bi-cash-coin",
     image: services1,
-    link: "service-details.html",
     delay: 200,
   },
   {
     id: 2,
-    title: "Eosle Commodi",
+    title: "Reputation System",
     description:
-      "Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.",
-    icon: "bi bi-broadcast",
+      "Our reputation module ensures fair evaluations by analyzing reviews, completed contracts, education, and previous work experience.",
+    icon: "bi bi-star-fill",
     image: services2,
-    link: "service-details.html",
     delay: 300,
   },
   {
     id: 3,
-    title: "Ledo Markt",
+    title: "Crypto Payments",
     description:
-      "Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.",
-    icon: "bi bi-easel",
+      "WorkLob supports multiple cryptocurrencies, ensuring fast and borderless transactions between Customers and Freelancers.",
+    icon: "bi bi-wallet2",
     image: services3,
-    link: "service-details.html",
     delay: 400,
   },
   {
     id: 4,
-    title: "Asperiores Commodit",
+    title: "AI-Agents for Specialized task",
     description:
-      "Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.",
-    icon: "bi bi-bounding-box-circles",
+      "AI-driven agents, designed to assist users in completing specialized tasks efficiently. Our AI agents marketplace provide tailored solutions AI to meet your unique needs.",
+    icon: "bi bi-robot",
+
     image: services4,
-    link: "service-details.html",
     delay: 500,
   },
   {
     id: 5,
-    title: "Velit Doloremque",
+    title: "Spot and Futures Trading with AI",
     description:
-      "Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.",
-    icon: "bi bi-calendar4-week",
+      "Our platform offers real-time insights, automated trade execution, and advanced risk management tools to optimize your trading strategy with AI-powered assistance.",
+    icon: "bi bi-graph-up",
     image: services5,
-    link: "service-details.html",
     delay: 600,
   },
   {
     id: 6,
-    title: "Dolori Architecto",
+    title: "Staking for Passive Rewards",
     description:
-      "Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.",
-    icon: "bi bi-chat-square-text",
+      "Stake your LOB tokens securely and earn passive rewards while contributing to network security. Our staking system ensures transparency and optimal returns for users",
+    icon: "bi bi-cash-stack",
     image: services6,
-    link: "service-details.html",
     delay: 700,
   },
 ];
@@ -88,9 +83,7 @@ const Service = () => {
                   <div className="icon">
                     <i className={service.icon}></i>
                   </div>
-                  <a href={service.link} className="stretched-link">
-                    <h3>{service.title}</h3>
-                  </a>
+                  <h3>{service.title}</h3>
                   <p>{service.description}</p>
                 </div>
               </div>

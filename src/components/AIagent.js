@@ -1,31 +1,28 @@
 import React from "react";
-import aboutImage from "../assets/img/about.jpg"; // Uncomment and update the path if needed
+import memeimg from "../assets/img/ai-agents/crypto-meme-generator.png";
+import pitchimg from "../assets/img/ai-agents/pitch-polisher.png";
+import codeimg from "../assets/img/ai-agents/smart-contract-auditor.png";
 
 const AIagent = () => {
   const aifeature = [
     {
       id: 1,
-      title: "Bridging Talent and Opportunity for Every Profession",
-      description:
-        "Explore how our platform connects job seekers and creators, offering roles across industries for a diverse range of skills and talent.",
-      image: aboutImage,
-      link: "blog-details.html",
+      title: "Crypto Meme Maker",
+      description: "Generate fun, on-trend crypto memes from text prompts.",
+      image: memeimg,
     },
     {
       id: 2,
-      title: "The Future of Work: Flexibility and Freedom",
+      title: "Pitch Polisher",
       description:
-        "Learn how freelancing, part-time, and full-time opportunities redefine the modern workforce, empowering professionals and businesses alike.",
-      image: aboutImage,
-      link: "blog-details.html",
+        "Elevate your project pitch or whitepaper with professional polish.",
+      image: pitchimg,
     },
     {
       id: 3,
-      title: "Why Every Job Matters: A Platform for All",
-      description:
-        "Discover how we celebrate all professions, connecting customers and talents to create opportunities that make a difference in every field.",
-      image: aboutImage,
-      link: "blog-details.html",
+      title: "Smart Contract Auditor",
+      description: "Uncover potential issues in your Solidity contracts.",
+      image: codeimg,
     },
   ];
 
@@ -59,8 +56,8 @@ const AIagent = () => {
 
                   <hr />
 
-                  <a href={post.link} className="readmore stretched-link">
-                    <span>Read More</span>
+                  <a href="/" className="readmore stretched-link">
+                    <span>View Details</span>
                     <i className="bi bi-arrow-right"></i>
                   </a>
                 </div>
