@@ -2,7 +2,7 @@ import React from "react";
 import features1 from "../assets/img/talent-cus-no-bg.png";
 import features2 from "../assets/img/ai-agent-screen.png";
 import features3 from "../assets/img/loanimg.png";
-import features4 from "../assets/img/loanimg.png";
+import features4 from "../assets/img/trade-ui.png";
 
 const features = [
   {

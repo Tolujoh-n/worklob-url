@@ -1,16 +1,37 @@
-import React, { useEffect } from "react";
-// import logo from 'assets/img/logo.png'; // Uncomment if you're using an image logo
+import React, { useState, useEffect } from "react";
+// import logo from 'assets/img/logo.png';
 import { initHeaderScrolled } from "../assets/js/headerScrolled";
 
 const Nav = () => {
+  const [isMobileNavActive, setMobileNavActive] = useState(false);
+
+  // Toggle mobile nav
+  const toggleMobileNav = () => {
+    setMobileNavActive((prev) => !prev);
+  };
+
+  // Close mobile nav on link click
+  const handleLinkClick = () => {
+    setMobileNavActive(false);
+  };
+
+  // Add/remove class to body based on toggle
+  useEffect(() => {
+    if (isMobileNavActive) {
+      document.body.classList.add("mobile-nav-active");
+    } else {
+      document.body.classList.remove("mobile-nav-active");
+    }
+  }, [isMobileNavActive]);
+
   useEffect(() => {
     initHeaderScrolled();
-  });
+  }, []);
+
   return (
     <header id="header" className="header d-flex align-items-center fixed-top">
       <div className="container-fluid container-xl position-relative d-flex align-items-center">
         <a href="/" className="logo d-flex align-items-center me-auto">
-          {/* Uncomment the line below if you also wish to use an image logo */}
           {/* <img src={logo} alt="Logo" /> */}
           <h1 className="sitename">WorkLob</h1>
           <span>.</span>
@@ -19,38 +40,63 @@ const Nav = () => {
         <nav id="navmenu" className="navmenu">
           <ul style={{ textAlign: "right" }}>
             <li>
-              <a href="#hero" className="active">
+              <a href="#hero" className="active" onClick={handleLinkClick}>
                 Home
               </a>
             </li>
             <li>
-              <a href="#crypto-jobs">Full-Time Jobs</a>
+              <a href="#crypto-jobs" onClick={handleLinkClick}>
+                Full-Time Jobs
+              </a>
             </li>
             <li>
-              <a href="#freelancee">Freelance Jobs</a>
+              <a href="#freelancee" onClick={handleLinkClick}>
+                Freelance Jobs
+              </a>
             </li>
             <li className="dropdown">
-              <a href="#">
+              <a href="#browsegig" onClick={(e) => e.preventDefault()}>
                 <span>Catalogs</span>
                 <i className="bi bi-chevron-down toggle-dropdown"></i>
               </a>
               <ul>
                 <li>
-                  <a href="#browsegig">Browse Gigs</a>
+                  <a href="#browsegig" onClick={handleLinkClick}>
+                    Browse Gigs
+                  </a>
                 </li>
                 <li>
-                  <a href="#browsegig">Browse Talents</a>
+                  <a href="#browsegig" onClick={handleLinkClick}>
+                    Browse Talents
+                  </a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="https://worklobapp.netlify.app/">Doc</a>
+              <a
+                href="https://worklobapp.netlify.app/"
+                onClick={handleLinkClick}
+              >
+                Doc
+              </a>
             </li>
             <li>
-              <a href="https://worklobapp.netlify.app/">Get Started</a>
+              <a
+                href="https://worklobapp.netlify.app/"
+                onClick={handleLinkClick}
+              >
+                Get Started
+              </a>
             </li>
           </ul>
-          <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
+          {/* Toggle icon for mobile */}
+          <i
+            className={`mobile-nav-toggle d-xl-none bi ${
+              isMobileNavActive ? "bi-x" : "bi-list"
+            }`}
+            onClick={toggleMobileNav}
+          ></i>
         </nav>
 
         <a className="btn-getstarted" href="https://worklobapp.netlify.app/">
