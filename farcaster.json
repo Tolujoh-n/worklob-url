@@ -7,11 +7,11 @@
   "frame": {
     "version": "1",
     "name": "Yoink!",
-    "iconUrl": "https://yoink.party/logo.png",
-    "homeUrl": "https://yoink.party/framesV2/",
-    "imageUrl": "https://yoink.party/framesV2/opengraph-image",
+    "iconUrl": "https://ibb.co/Y7Y4xmR3",
+    "homeUrl": "https://worklob-url.vercel.app/",
+    "imageUrl": "https://ibb.co/Y7Y4xmR3",
     "buttonTitle": "🚩 Start",
-    "splashImageUrl": "https://yoink.party/logo.png",
+    "splashImageUrl": "https://ibb.co/Y7Y4xmR3",
     "splashBackgroundColor": "#f5f0ec",
     "webhookUrl": "https://yoink.party/api/webhook"
   }
