@@ -9,7 +9,7 @@ const features = [
     id: 1,
     title: "The Ultimate Decentralized Job Platform",
     description:
-      "WorkLob seamlessly connects job seekers, employers, and freelancers through a decentralized ecosystem, leveraging blockchain to create opportunities globally.",
+      "WorkLoob seamlessly connects job seekers, employers, and freelancers through a decentralized ecosystem, leveraging blockchain to create opportunities globally.",
     list: [
       "Empowering freelancers with secure and transparent contracts.",
       "Providing employers access to top-tier global talent.",

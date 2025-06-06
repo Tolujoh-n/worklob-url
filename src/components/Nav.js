@@ -33,7 +33,7 @@ const Nav = () => {
       <div className="container-fluid container-xl position-relative d-flex align-items-center">
         <a href="/" className="logo d-flex align-items-center me-auto">
           {/* <img src={logo} alt="Logo" /> */}
-          <h1 className="sitename">WorkLob</h1>
+          <h1 className="sitename">WorkLoob</h1>
           <span>.</span>
         </a>
 
@@ -73,18 +73,12 @@ const Nav = () => {
               </ul>
             </li>
             <li>
-              <a
-                href="https://worklobapp.netlify.app/"
-                onClick={handleLinkClick}
-              >
+              <a href="https://app.workloob.com/" onClick={handleLinkClick}>
                 Doc
               </a>
             </li>
             <li>
-              <a
-                href="https://worklobapp.netlify.app/"
-                onClick={handleLinkClick}
-              >
+              <a href="https://app.workloob.com/" onClick={handleLinkClick}>
                 Get Started
               </a>
             </li>
@@ -99,7 +93,7 @@ const Nav = () => {
           ></i>
         </nav>
 
-        <a className="btn-getstarted" href="https://worklobapp.netlify.app/">
+        <a className="btn-getstarted" href="https://app.workloob.com/">
           Post Job
         </a>
       </div>

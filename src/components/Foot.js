@@ -7,11 +7,11 @@ const Foot = () => {
         <div className="row gy-4">
           <div className="col-lg-4 col-md-6 footer-about">
             <a href="index.html" className="logo d-flex align-items-center">
-              <span className="sitename">WorkLob</span>
+              <span className="sitename">WorkLoob</span>
             </a>
             <div className="footer-contact pt-3">
               <p>
-                WorkLob is a Decentralized freelance marketplace on the BASE
+                WorkLoob is a Decentralized freelance marketplace on the BASE
                 Blockchain, offering lower fees, transparent operations, and
                 secure payments, empowering freelancers and clients to connect
                 directly and control their work through community-driven
@@ -19,16 +19,16 @@ const Foot = () => {
               </p>
             </div>
             <div className="social-links d-flex mt-4">
-              <a href="#" aria-label="Twitter">
+              <a href="https://x.com/Worklob_global" target="_blank" aria-label="Twitter">
                 <i className="bi bi-twitter-x"></i>
               </a>
-              <a href="#" aria-label="Facebook">
+              <a href="https://www.facebook.com/workloob/" target="_blank" aria-label="Facebook">
                 <i className="bi bi-facebook"></i>
               </a>
-              <a href="#" aria-label="Instagram">
-                <i className="bi bi-instagram"></i>
+              <a href="https://discord.gg/8scmgMb7" target="_blank" aria-label="Instagram">
+                <i className="bi bi-discord"></i>
               </a>
-              <a href="#" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/workloob" target="_blank" aria-label="LinkedIn">
                 <i className="bi bi-linkedin"></i>
               </a>
             </div>
@@ -102,7 +102,7 @@ const Foot = () => {
       <div className="container copyright text-center mt-4">
         <p>
           © <span>Copyright</span>
-          <strong className="px-1 sitename">WorkLob 2025</strong>
+          <strong className="px-1 sitename">WorkLoob 2025</strong>
           <span>All Rights Reserved</span>
         </p>
       </div>

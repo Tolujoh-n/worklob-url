@@ -27,7 +27,7 @@ const Benefits = () => {
                     20%, our blockchain-based decentralised approach means our
                     commissions are as low as 10% for Freelancers and 0% for
                     Customers. Premium account holders will enjoy fee-free use
-                    of WorkLob, and other major benefits!
+                    of WorkLoob, and other major benefits!
                   </p>
                 </div>
               </li>
@@ -52,7 +52,7 @@ const Benefits = () => {
                 <div>
                   <h5>Crypto Payments</h5>
                   <p>
-                    WorkLob supports a range of popular tokens on the BASE
+                    WorkLoob supports a range of popular tokens on the BASE
                     networks, providing fast, efficient settlement between
                     Customers and Freelancers anywhere in the world.
                   </p>

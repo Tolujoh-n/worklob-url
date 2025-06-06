@@ -10,9 +10,9 @@ const Hero = () => {
           <div className="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h1>Unified Network for Global Talent and Work</h1>
             <p>
-              WorkLob is the ultimate decentralized platform connecting job
+              WorkLoob is the ultimate decentralized platform connecting job
               seekers, employers, and freelancers, enhanced with AI-powered
-              agents to assist users in completing specialized tasks — WorkLob
+              agents to assist users in completing specialized tasks — WorkLoob
               combines blockchain technology with AI to bring everything about
               jobs and opportunities into one seamless experience.
             </p>

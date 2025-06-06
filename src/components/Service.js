@@ -11,7 +11,7 @@ const services = [
     id: 1,
     title: "Low Commissions",
     description:
-      "WorkLob offers the lowest commission rates in the industry, with 3% for Freelancers and 0% for Customers. Premium users enjoy fee-free transactions!",
+      "WorkLoob offers the lowest commission rates in the industry, with 3% for Freelancers and 0% for Customers. Premium users enjoy fee-free transactions!",
     icon: "bi bi-cash-coin",
     image: services1,
     delay: 200,
@@ -29,7 +29,7 @@ const services = [
     id: 3,
     title: "Crypto Payments",
     description:
-      "WorkLob supports multiple cryptocurrencies, ensuring fast and borderless transactions between Customers and Freelancers.",
+      "WorkLoob supports multiple cryptocurrencies, ensuring fast and borderless transactions between Customers and Freelancers.",
     icon: "bi bi-wallet2",
     image: services3,
     delay: 400,
