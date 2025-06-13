@@ -11,9 +11,9 @@ const Hero = () => {
             <h1>A global hub connecting Job seekers with work opportunities</h1>
             <p>
               WorkLoob is a decentralized platform linking job seekers,
-              employers, and freelancers, with AI-powered agents for specialized
-              tasks—plus a crypto ATM card for easy withdrawals from crypto to
-              your currency.
+              employers, and freelancers. Enhanced with AI-powered agents for
+              specialized tasks—plus a crypto ATM card for easy withdrawals from
+              crypto to your currency.
             </p>
             <div className="d-flex">
               <a

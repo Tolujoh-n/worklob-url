@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.d446be60.css",
-    "main.js": "/static/js/main.7eec8a06.js",
+    "main.css": "/static/css/main.d62bd169.css",
+    "main.js": "/static/js/main.4646197c.js",
     "static/js/453.af9eb93d.chunk.js": "/static/js/453.af9eb93d.chunk.js",
     "static/media/reputation-n.png": "/static/media/reputation-n.064d817740b5bd0cd7e7.png",
     "static/media/ai-agent-n.png": "/static/media/ai-agent-n.779c3a337c4433dcbadf.png",
-    "static/media/trading-n.png": "/static/media/trading-n.b20ae944e6ac032b2bcc.png",
     "static/media/cypto-payment-n.png": "/static/media/cypto-payment-n.20379f613aa6c6855853.png",
     "static/media/smart-contract-auditor.png": "/static/media/smart-contract-auditor.6889658de14ae2cba1a7.png",
     "static/media/low-fees-n.png": "/static/media/low-fees-n.4654169a89810cfd4cf2.png",
@@ -13,20 +12,20 @@
     "static/media/ai-agent-screen.png": "/static/media/ai-agent-screen.697c55c965f364b3b23c.png",
     "static/media/crypto-meme-generator.png": "/static/media/crypto-meme-generator.0f8587b4353536512b14.png",
     "static/media/pitch-polisher.png": "/static/media/pitch-polisher.b88defbc835286c2f914.png",
+    "static/media/atm-card-ui.png": "/static/media/atm-card-ui.00f2a27ff782e87709c2.png",
     "static/media/footer-bg.jpg": "/static/media/footer-bg.a0a26ba5ffa0c53ff6d8.jpg",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/talent-cus-no-bg.png": "/static/media/talent-cus-no-bg.ff9f2d910735b561a4a5.png",
-    "static/media/loanimg.png": "/static/media/loanimg.3fa4151799ee502ac48e.png",
-    "static/media/trade-ui.png": "/static/media/trade-ui.5eb22039eb2dbbf0fa22.png",
+    "static/media/crypto-card.png": "/static/media/crypto-card.5b8f6e4256e5d664d399.png",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/hero-img.png": "/static/media/hero-img.e4a75f2e6d24247aae8d.png",
     "index.html": "/index.html",
-    "main.d446be60.css.map": "/static/css/main.d446be60.css.map",
-    "main.7eec8a06.js.map": "/static/js/main.7eec8a06.js.map",
+    "main.d62bd169.css.map": "/static/css/main.d62bd169.css.map",
+    "main.4646197c.js.map": "/static/js/main.4646197c.js.map",
     "453.af9eb93d.chunk.js.map": "/static/js/453.af9eb93d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d446be60.css",
-    "static/js/main.7eec8a06.js"
+    "static/css/main.d62bd169.css",
+    "static/js/main.4646197c.js"
   ]
 }
