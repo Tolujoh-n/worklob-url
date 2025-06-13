@@ -3,7 +3,8 @@ import services1 from "../assets/img/features/low-fees-n.png";
 import services2 from "../assets/img/features/reputation-n.png";
 import services3 from "../assets/img/features/cypto-payment-n.png";
 import services4 from "../assets/img/features/ai-agent-n.png";
-import services5 from "../assets/img/features/trading-n.png";
+import services5 from "../assets/img/features/crypto-card.png";
+// import services5 from "../assets/img/features/trading-n.png";
 import services6 from "../assets/img/features/crypto-staking-n.png";
 
 const services = [
@@ -46,13 +47,22 @@ const services = [
   },
   {
     id: 5,
-    title: "Spot and Futures Trading with AI",
+    title: "Crypto ATM Card",
     description:
       "Our platform offers real-time insights, automated trade execution, and advanced risk management tools to optimize your trading strategy with AI-powered assistance.",
-    icon: "bi bi-graph-up",
+    icon: "bi bi-credit-card",
     image: services5,
     delay: 600,
   },
+  // {
+  //   id: 5,
+  //   title: "Spot and Futures Trading with AI",
+  //   description:
+  //     "Our platform offers real-time insights, automated trade execution, and advanced risk management tools to optimize your trading strategy with AI-powered assistance.",
+  //   icon: "bi bi-graph-up",
+  //   image: services5,
+  //   delay: 600,
+  // },
   {
     id: 6,
     title: "Staking for Passive Rewards",

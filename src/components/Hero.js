@@ -8,17 +8,16 @@ const Hero = () => {
         <div className="row gy-4 align-items-center">
           {/* Text Section */}
           <div className="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1>Unified Network for Global Talent and Work</h1>
+            <h1>A global hub connecting Job seekers with work opportunities</h1>
             <p>
-              WorkLoob is the ultimate decentralized platform connecting job
-              seekers, employers, and freelancers, enhanced with AI-powered
-              agents to assist users in completing specialized tasks — WorkLoob
-              combines blockchain technology with AI to bring everything about
-              jobs and opportunities into one seamless experience.
+              WorkLoob is a decentralized platform linking job seekers,
+              employers, and freelancers, with AI-powered agents for specialized
+              tasks—plus a crypto ATM card for easy withdrawals from crypto to
+              your currency.
             </p>
             <div className="d-flex">
               <a
-                href="/"
+                href="https://forms.gle/F4KhHewSf1Ne7gA97"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-get-started"

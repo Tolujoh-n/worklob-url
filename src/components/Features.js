@@ -1,8 +1,9 @@
 import React from "react";
 import features1 from "../assets/img/talent-cus-no-bg.png";
 import features2 from "../assets/img/ai-agent-screen.png";
-import features3 from "../assets/img/loanimg.png";
-import features4 from "../assets/img/trade-ui.png";
+import features3 from "../assets/img/atm-card-ui.png";
+// import features3 from "../assets/img/loanimg.png";
+// import features4 from "../assets/img/trade-ui.png";
 
 const features = [
   {
@@ -31,26 +32,38 @@ const features = [
   },
   {
     id: 3,
-    title: "NFT-Backed Lending and Borrowing",
+    title: "Spend Crypto Without Limits with our crypto ATM Card",
     description:
-      "Unlock liquidity using your NFTs as collateral to access stablecoin loans on the Base blockchain, all without intermediaries.",
+      "Tired of watching your money lose value overnight? With our crypto-powered ATM card, you stay ahead of inflation and unlock the true freedom of your funds — anytime, anywhere.",
     list: [
-      "Borrow stablecoins instantly by using NFTs as collateral.",
-      "Secure and transparent smart contract-based lending.",
-      "Earn rewards by providing liquidity to borrowers.",
+      "Stay safe from inflation — spend stablecoins instead of losing value.",
+      "Pay less — enjoy low or zero fees when spending or withdrawing.",
+      "Use it anywhere — shop or withdraw cash at ATMs and POS machines.",
     ],
     image: features3,
   },
-  {
-    id: 4,
-    title: "Spot and Futures Trading with AI Assistance",
-    description:
-      "Enhance your trading experience with AI-driven support, making spot and futures trading seamless, efficient, and profitable.",
-    additionalDescription:
-      "Chat with our AI assistant to execute trades effortlessly. Whether you're trading in the spot market or leveraging futures positions, the AI provides real-time market insights, risk management strategies, and automated execution to optimize your trading performance.",
-    image: features4,
-    reverse: true,
-  },
+  // {
+  //   id: 3,
+  //   title: "NFT-Backed Lending and Borrowing",
+  //   description:
+  //     "Unlock liquidity using your NFTs as collateral to access stablecoin loans on the Base blockchain, all without intermediaries.",
+  //   list: [
+  //     "Borrow stablecoins instantly by using NFTs as collateral.",
+  //     "Secure and transparent smart contract-based lending.",
+  //     "Earn rewards by providing liquidity to borrowers.",
+  //   ],
+  //   image: features3,
+  // },
+  // {
+  //   id: 4,
+  //   title: "Spot and Futures Trading with AI Assistance",
+  //   description:
+  //     "Enhance your trading experience with AI-driven support, making spot and futures trading seamless, efficient, and profitable.",
+  //   additionalDescription:
+  //     "Chat with our AI assistant to execute trades effortlessly. Whether you're trading in the spot market or leveraging futures positions, the AI provides real-time market insights, risk management strategies, and automated execution to optimize your trading performance.",
+  //   image: features4,
+  //   reverse: true,
+  // },
 ];
 
 const Features = () => {

@@ -17,7 +17,7 @@ const Faq = () => {
     {
       question: "How does a WorkLoob Premium membership benefit Freelancers?",
       answer:
-        "Freelancers are charged 10% in platform fees for each Job or Gig they complete. These fees are converted to LOB tokens on the open market. Freelancers may then receive a rebate of up to half of this amount in LOB tokens, depending on their Premium membership status. This potentially reduces their fees to as little as 5%, as well as giving them a regular payment in a token for which there is constant demand – somewhat akin to a ‘crypto jobs pension’.",
+        "Freelancers are charged 5% in platform fees for each Job or Gig they complete. These fees are converted to LOB tokens on the open market. Freelancers may then receive a rebate of up to half of this amount in LOB tokens, depending on their Premium membership status. This potentially reduces their fees to as little as 1%.",
     },
     {
       question: "How does a WorkLoob Premium membership benefit Customers?",

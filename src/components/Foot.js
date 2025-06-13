@@ -19,16 +19,40 @@ const Foot = () => {
               </p>
             </div>
             <div className="social-links d-flex mt-4">
-              <a href="https://x.com/Worklob_global" target="_blank" aria-label="Twitter">
+              <a
+                href="https://x.com/workloobglobal?s=21"
+                target="_blank"
+                aria-label="Twitter"
+              >
                 <i className="bi bi-twitter-x"></i>
               </a>
-              <a href="https://www.facebook.com/workloob/" target="_blank" aria-label="Facebook">
-                <i className="bi bi-facebook"></i>
-              </a>
-              <a href="https://discord.gg/8scmgMb7" target="_blank" aria-label="Instagram">
+              <a
+                href="https://discord.gg/8scmgMb7"
+                target="_blank"
+                aria-label="Instagram"
+              >
                 <i className="bi bi-discord"></i>
               </a>
-              <a href="https://www.linkedin.com/company/workloob" target="_blank" aria-label="LinkedIn">
+              <a
+                href="https://t.me/workloob"
+                target="_blank"
+                aria-label="Telegram"
+              >
+                <i className="bi bi-telegram"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/workloob/"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <i className="bi bi-facebook"></i>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/company/workloob"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
                 <i className="bi bi-linkedin"></i>
               </a>
             </div>
@@ -65,13 +89,13 @@ const Foot = () => {
                 <a href="#">Web, Mobile & Software Jobs</a>
               </li>
               <li>
-                <a href="#">Writing Jobs</a>
+                <a href="#">Writing & Translation</a>
               </li>
               <li>
-                <a href="#">Sales & Marketing Jobs</a>
+                <a href="#">Sales & Marketing</a>
               </li>
               <li>
-                <a href="#">IT & Networking Jobs</a>
+                <a href="#">Customer Service & Support</a>
               </li>
             </ul>
           </div>
@@ -92,7 +116,7 @@ const Foot = () => {
                 <a href="#">AI Agents</a>
               </li>
               <li>
-                <a href="#">Loans</a>
+                <a href="#">Atm Card</a>
               </li>
             </ul>
           </div>
