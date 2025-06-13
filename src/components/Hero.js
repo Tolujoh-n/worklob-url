@@ -17,7 +17,7 @@ const Hero = () => {
             </p>
             <div className="d-flex">
               <a
-                href="https://forms.gle/F4KhHewSf1Ne7gA97"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeOK0RwuDiFReZHLs9swtidRwcJDZ8IhLMdL0OaKrm2_Yd0iQ/viewform?usp=dialog"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-get-started"
